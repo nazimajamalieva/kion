@@ -21,7 +21,7 @@ body {
 }
 .header {
   padding-top: 32px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .header-container {
   align-items: center;
@@ -48,7 +48,7 @@ body {
   border-radius: 50%;
   border: 1px solid #40494d;
 }
-.header-cta {
+.cta {
   border-radius: 25px;
   color: #ffffff;
   text-align: right;
@@ -56,9 +56,46 @@ body {
   background-color: #283337;
   font-family: Arial Regular;
   padding: 15px 25px;
+  margin-left: 0;
 }
 .header-search-img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  margin-right: 10px;
+}
+.hero {
+  background-color: #e5e5e5;
+  padding-top: 180px;
+  padding-bottom: 170px;
+}
+.hero-container {
+  display: flex;
+}
+.hero-left {
+  width: 50%;
+  padding-right: 50px;
+}
+.hero-title {
+  margin-top: 105px;
+  color: #283337;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.hero-desc {
+  color: #40494d;
+  font-family: Arial;
+  font-size: 21px;
+  padding-bottom: 30px;
+  max-width: 347px;
+}
+.hero-img {
+  width: 100%;
+}
+.partners-container {
+  display: flex;
+  gap: 100px;
+  margin: 55px 85px;
+  padding-top: 120px;
 }
