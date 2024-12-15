@@ -15,7 +15,6 @@ body {
   padding: 0;
 }
 .container {
-  width: 1330px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -125,7 +124,11 @@ body {
   font-size: 17px;
   line-height: 26px;
   padding-bottom: 40px;
-  padding-right: 180px;
+  max-width: 363px;
+}
+.highlight {
+  font-weight: bold;
+  text-decoration: underline;
 }
 .product-right {
   background-color: #e5e5e5;
@@ -165,4 +168,48 @@ body {
   text-decoration: none;
   padding-left: 280px;
   padding-top: 50px;
+}
+
+.results {
+  background-color: #e4e4e4;
+  height: 668px;
+}
+.results-container {
+  padding-top: 220px;
+  padding-bottom: 90px;
+}
+
+.results-top {
+  justify-items: center;
+}
+.results-title {
+  color: #283337;
+  font-size: 60px;
+  margin: 0;
+}
+.results-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 200px;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.results-item-title {
+  color: #283337;
+  font-family: Arial;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 70px;
+  margin: 0;
+  padding-top: 50px;
+}
+.results-item-txt {
+  color: #40494d;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 200px;
 }
