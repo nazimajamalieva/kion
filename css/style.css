@@ -55,12 +55,18 @@ body {
   margin-left: auto;
 }
 .cta {
+  transition: 0.3s;
   border-radius: 25px;
   color: #ffffff;
   text-decoration: none;
   background-color: #283337;
   font-family: Arial Regular;
   padding: 15px 25px;
+}
+.cta:hover {
+  background-color: #fff;
+  color: #40494d;
+  border: 1px solid #40494d;
 }
 .hero {
   background-color: #e5e5e5;
@@ -319,4 +325,106 @@ body {
 }
 .cloud-btn-wrapper {
   text-align: center;
+}
+.footer {
+  background-color: #101c21;
+}
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left-column-1 {
+  padding-bottom: 35px;
+}
+.footer-left-column-2 {
+  padding-bottom: 65px;
+}
+.footer-cta {
+  border-radius: 56px;
+  border: none;
+  color: #ffffff;
+  background-color: #283337;
+  padding: 19px 52px;
+  margin-left: 15px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.footer-top {
+  display: flex;
+  gap: 115px;
+}
+.footer-column-title {
+  color: #878d90;
+  font-family: Arial;
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.footer-column-menu {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.footer-column-menu-item a {
+  text-decoration: none;
+  color: #cfd2d3;
+  font-family: Arial;
+}
+.footer-column-menu-item {
+  margin-bottom: 15px;
+}
+.footer-column-menu-item:last-child {
+  margin-bottom: 0;
+}
+.footer-right > .footer-newsletter {
+  position: absolute;
+}
+.footer-logo {
+  height: 61px;
+}
+.footer-newsletter-title {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.footer-newsletter-input {
+  height: 56px;
+  width: 410px;
+  border-radius: 6px;
+  padding-left: 35px;
+}
+.footer-cta:hover {
+  background: #fff;
+  color: #283337;
+}
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 105px;
+}
+.footer-socials {
+  display: flex;
+  gap: 30px;
+  margin-right: 400px;
+}
+.footer-legal {
+  display: flex;
+  gap: 35px;
+  color: #9fa4a6;
+  padding-right: 135px;
+}
+.footer-legal a {
+  text-decoration: none;
+  color: #9fa4a6;
+}
+.footer-txt {
+  color: #9fa4a6;
 }
